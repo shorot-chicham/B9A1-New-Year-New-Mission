@@ -72,3 +72,53 @@
 /* midnight party container styles start form here  */
 
 
+.midnight-party-container{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-image: url("/resources/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 70px;
+    border-radius: 10px;
+    
+}
+
+
+
+.midnight-party-title{
+    font-size: 64px;
+    font-family: Merriweather;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.party-description{
+    color: rgba(255, 255, 255, 0.80);
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.midnight-party-img > img{
+    width: 180px;
+}
+
+.party-btn{
+    border: none;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.party-btn a{
+    background-color: rgb(49, 48, 48);
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
