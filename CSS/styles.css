@@ -126,7 +126,7 @@
 /* park hotel container styles from here  */
 
 .park-hotel-container{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .park-hotel-info{
@@ -156,3 +156,75 @@
     text-decoration: none;
     color: white;
 }
+
+/* coming soon container styles start from here  */
+
+.coming-soon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+.coming-soon-img img{
+    width: 200px;
+    height: auto;
+    border: 8px solid #f00;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.coming-soon-year img{
+    width: 70px;
+    height: auto;
+    margin-top: 43px;
+}
+
+.coming-soon-sub-title{
+    color: #f00;
+    font-family: Inter;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.coming-soon-title{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: Merriweather;
+    margin-bottom: 22px;
+}
+
+.coming-soon-year h1{
+    color: #f00;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: Inter;
+}
+
+/*TODO: holidays sale container styles start from here  */
+
+/* .holiday-sale-img{
+    display: flex;
+    background-image: url('/resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-size: 100vw 100px;
+    background-position: bottom;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.girl-img img{
+    width: 320px;
+    height: auto;
+}
+
+.holiday-sale-img .box-img img{
+    width: 500px;
+    height: auto;
+}
+
+.box-img{
+    padding: 0;
+} */
