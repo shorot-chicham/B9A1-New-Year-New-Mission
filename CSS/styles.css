@@ -238,8 +238,8 @@
 }
 
 .portfolio-items{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     gap: 7px;
@@ -267,7 +267,7 @@
     margin-bottom: 22px;
 }
 
-.item img:hover{
+.item:hover{
     border: 5px solid #f00;
     border-radius: 10px;
 }
@@ -329,5 +329,47 @@ footer{
 }
 
 .footer-container{
-    
+    color: #fff;
+    font-family: Inter;
+    padding: 80px 0;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    padding-bottom: 40px;
+}
+
+.contact-number, .website{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-sites{
+    text-align: center;
+    margin: 80px 0;
+}
+
+.social-sites img{
+    margin-right: 10px;
+    width: 50px;
+    height: auto;
+}
+
+.reserved{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.unsubscribe-btn{
+    background-color:#070211;
+    color: #fff;
+    border: none;
 }
