@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.space{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+/* banner container start from here  */
+
+
+.banner-container{
+    background-image: url('/resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: merriweather;
+    margin-top: 3%;
+    border: none;
+    border-radius: 10px;
+}
+
+.banner-title{
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.banner-sub-title{
+    font-size: 35px;
+}
+
+/* 65% off container styles start from here  */
+
+
