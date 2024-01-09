@@ -23,6 +23,7 @@
     margin-top: 3%;
     border: none;
     border-radius: 10px;
+    margin-bottom: 50px;
 }
 
 .banner-title{
@@ -35,5 +36,39 @@
 }
 
 /* 65% off container styles start from here  */
+
+
+.off-container{
+    font-family: Inter;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.off-container-title{
+    font-size: 88px;
+    font-weight: 700;
+    color: #f00;
+    margin-bottom: 20px;
+}
+
+
+.off-container > p{
+    color: #f00;
+    margin-bottom: 10px;
+}
+
+.off-container-sub-title{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+
+.off-container-img{
+    width: 800px;
+    height: auto;
+    margin-top: 40px;
+}
+
+/* midnight party container styles start form here  */
 
 
